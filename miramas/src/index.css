@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sidebar-icon {
+    @apply relative flex items-center justify-center h-12 w-12 mx-auto hover:bg-slate-100 w-full hover:rounded-none transition-all duration-300 ease-linear cursor-pointer
+  }
+  .logo-icon {
+    @apply relative flex items-center justify-center h-12 w-12 mx-auto
+  }
+
+}
