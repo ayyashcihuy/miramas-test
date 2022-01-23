@@ -13,7 +13,7 @@ const Logo = ({ icon }) => <div className="logo-icon">{icon}</div>;
 
 function Sidebar() {
   return (
-    <div className="fixed top-0 left-0 h-screen w-16 m-0 flex flex-col bg-white text-gray-900 shadow-lg mx-auto">
+    <div className="float-left fixed top-0 left-0 h-screen w-16 m-0 flex flex-col bg-white text-gray-900 shadow-lg mx-auto">
       <div className="mb-2">
         <Logo icon={<HiAcademicCap size={15} color="#4ADE80" />} />
       </div>
